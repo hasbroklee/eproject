@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico"/>
+    <title>Nexus Aquarium</title>
+</head>
+<body>
+    <div class="container">
+        <!-- header start -->
+        <header class="header">
+            <!-- header logo start -->
+            <div class="header__logo">
+                <img src="./assets/img/logo.png" alt="" class="header__logo-img">
+                <p class="header__logo-name">Nexus <span style="color: #050FF3">Aquarium</span></p>
+            </div>
+            <!-- header logo end -->
+            <!-- header navigation start -->
+            <nav class="header__nav">
+                <a href="#home">Home</a>
+                <a href="#information">About us</a>
+                <a href="#event">Events</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#footer">Contact us</a>
+            </nav>
+            <!-- header navigation end -->
+        </header>
+        <!-- header end -->
+        <!-- header slider start-->
+        <div class="slider-container" id="home">
+            <div class="slider">
+                <div class="slider__slides">
+                    <!--radio buttons start-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <!--radio buttons end-->
+                    <!--slide images start-->
+                    <div class="slider__slide first">
+                        <img src="./assets/img/slider1.jpg" alt="">
+                    </div>
+                    <div class="slider__slide">
+                        <img src="./assets/img/slider2.jpg" alt="">
+                    </div>
+                    <div class="slider__slide">
+                        <img src="./assets/img/slider3.jpg" alt="">
+                    </div>
+                    <!--slide images end-->
+                    <!--automatic navigation start-->
+                    <div class="slider__navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                    <!--automatic navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="slider__navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
+            </div>
+        </div>
+        <!-- header slider end-->
+        <!-- Information start -->
+        <div class="info-container">
+            <!-- information content start -->
+            <div class="info__content">
+                <img src="./assets/img/aboutus.jpg" class="info__content-img">
+                <div class="info__content-desc">
+                    <h2 id="information" class="info__content-title">
+                        About us
+                    </h2>
+                    <p>
+                        Nexus Aquarium is located in city of Washington, which is the one of well known place for tourism.
+                        Aquarium is very huge and comprises of marine life animals and they are fed and breeding. It is the big centre for organizing the school events for
+                        the purpose of study and so on. For the children to visit an aquarium is big thing as
+                        they love to sea creatures.
+                    </p>
+                    
+                </div>
+            </div>
+            <!-- information content end -->
+            <!-- information slider start -->
+            <div class="info__slider">
+                <figure>
+                    <img src="./assets/img/img5.jpg">
+                    <img src="./assets/img/img3.jpg">
+                    <img src="./assets/img/img2.jpg">
+                    <img src="./assets/img/img4.jpg">
+                    <img src="./assets/img/img1.jpg">
+                </figure>
+            </div>
+            <!-- information slider end -->
+        </div>
+        <!-- Information end -->
+        <!-- Events start -->
+        <div id="event">
+            <h2 class="events-headline">Events</h2>
+            <div class="events-container">
+                <div class="events__item event1">
+                    <div class="events__item-img">
+                        <img src="./assets/img/slider1.jpg" alt="">
+                    </div>
+                    <div class="events__desc">
+                        <h2>Event 1</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi molestiae blanditiis, incidunt totam fugiat quam voluptatem pariatur qui vero eos!
+                    </div>
+                    <button class="events__buy js-buy-ticket">
+                        Buy tickets
+                    </button>
+                </div>
+                <div class="events__item event2">
+                    <div class="events__item-img">
+                        <img src="./assets/img/slider1.jpg" alt="">
+                    </div>
+                    <div class="events__desc">
+                        <h2>Event 2</h2>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit sapiente dignissimos nostrum perspiciatis laborum architecto sequi dolor labore quae corrupti.
+                    </div>
+                    <button class="events__buy js-buy-ticket">
+                        Buy tickets
+                    </button>
+                </div>
+                <div class="events__item event3">
+                    <div class="events__item-img">
+                        <img src="./assets/img/slider1.jpg" alt="">
+                    </div>
+                    <div class="events__desc">
+                        <h2>Event 3</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, maxime? Nesciunt quas eos animi. Doloribus aperiam nostrum quod libero eius.
+                    </div>
+                    <button class="events__buy js-buy-ticket">
+                        Buy tickets
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Events end -->
+        <!-- Gallery start -->
+        <div id="gallery">
+            <div class="gallery-container">
+                <h2 class="gallery__headlines">Gallery</h2>
+                <div class="gallery__item">
+                    <div class="gallery__item--img">
+                        <img src="./assets/img/3.jpg">
+                    </div>
+                    <div class="gallery__item--block">
+                        <div class="gallery__item--article">
+                            <h2>Clownfish</h2>
+                        </div>
+                        <div class="gallery__item--info">
+                            <p>With a layer of mucus protecting their body, these feisty fish are able to live among the stinging tentacles of sea anemones. Clownfish and sea anemones have a symbiotic relationship, which means that both parties benefit from the presence of the other.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <div class="gallery__item--img">
+                        <img src="./assets/img/4.jpg">
+                    </div>
+                    <div class="gallery__item--block">
+                            <div class="gallery__item--article">
+                            <h2>Hammerhead Shark</h2>
+                    </div>
+                        <div class="gallery__item--info">
+                            <p>Hammerhead sharks are named after the shape of their head which resembles the shape of a hammer. With eyes located at both ends of their head, they have a large visual range of almost 360 degrees.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <div class="gallery__item--img">
+                        <img src="./assets/img/1.jpg">
+                    </div>
+                    <div class="gallery__item--block">
+                            <div class="gallery__item--article">
+                            <h2>Bubble Coral</h2>
+                        </div>
+                        <div class="gallery__item--info">
+                            <p>Bubble corals belong to a group of soft corals and can be found in shallow, clear, and warm waters of the Indo-Pacific ocean. Despite its resemblence to grapes, the “bubbles” are actually jelly-like polyps</p>
+                        </div>
+                </div>
+                </div>
+                <div class="gallery__item">
+                    <div class="gallery__item--img">
+                        <img src="./assets/img/2.jpg">
+                    </div>	
+                    <div class="gallery__item--block">
+                            <div class="gallery__item--article">
+                            <h2>Knobbly Sea Star</h2>
+                        </div>
+                        <div class="gallery__item--info">
+                            <p>Also known as chocolate chip sea stars, knobbly sea stars are covered in dark thorny knobs that discourage predators from taking a bite. They can also be found along the shores of Singapore during low tides.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Gallery end -->
+        <!-- Feedback start-->
+        <div id="feedback">
+            <div class="feedback-container">
+                <h2 class="feedback__headlines">Feedback</h2>
+                <h2 class="feedback__headings">Feedback Type</h2>
+                <div class="feedback__type-input">
+                    <div class="type__chosen">
+                        <input type="radio" name="feedback-type" value=""> Comments
+                    </div>
+                    <div class="type__chosen">
+                        <input type="radio" name="feedback-type" value=""> Suggestions
+                    </div>
+                    <div class="type__chosen">
+                        <input type="radio" name="feedback-type" value=""> Questions
+                    </div>
+                </div>
+                <h2 class="feedback__headings">Describe your feedback</h2>
+                    <div class="feedback__desc">
+                        <textarea class="longInput" cols="30" rows="10" placeholder="We would love to hear your thoughts, suggestion, concerns or problems with anything so we can improve!"></textarea>
+                    </div>
+                <div class="feedback__info">
+                    <div class="feedback__info-name">
+                        Name <br>
+                        <input type="text" size="40" placeholder="Your name">
+                    </div>
+                    <div class="feedback__info-email">
+                        Email <br>
+                        <input type="text" size="57" placeholder="Your email">
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button class="feedback__submit">
+                        SUBMIT
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <!-- Feedback end -->
+        <!-- Footer start -->
+        <div id="footer">
+            <h2 class="footer__heading">Contact us</h2>
+            <div class="footer-container">
+                <div class="footer__left">
+                    <div class="footer__item">
+                        <img src="./assets/img/email.png" alt=""> 
+                        <h2 class="footer__item-name">nexus@aquarium.com</h2>
+                    </div>
+                    <div class="footer__item">
+                        <img src="./assets/img/phone.png" alt="">
+                        <h2 class="footer__item-name">123-456-7899</h2>
+                    </div>
+                    <div class="footer__item">
+                        <img src="./assets/img/maps-and-flags.png" alt="">
+                        <h2 class="footer__item-name">NEXUS AQUARIUM, Washington</h2>
+                    </div>
+                </div>
+                <div class="footer__right" >
+                    <div class="footer__item" style="margin-left: 150px;">
+                        <img src="./assets/img/facebook.png" alt=""> 
+                    </div>
+                    <div class="footer__item">
+                        <img src="./assets/img/instagram.png" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <img src="./assets/img/pinterest-social-logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer end -->
+        <!-- Modal buy tickets start -->
+        <div class="modal js-modal">
+            <div class="modal-container js-modal-container">
+                <div class="modal-close js-modal-close">
+                    <i class="ti-close"></i>
+                </div>
+                <header class="modal-header">
+                    <i class="modal-heading-icon ti-bag"></i>
+                    ONLINE TICKETS
+                </header>
+    
+                <div class="modal-body">
+                    <label class="modal-label" for="ticket-quantity">
+                        <i class="ti-shopping-cart"></i>
+                        Tickets, $15 per person
+                    </label>
+                    <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many?">
+    
+                    <label class="modal-label" for="ticket-email">
+                        <i class="ti-user"></i>
+                        Special offers?
+                    </label>
+                    <input id="ticket-special" type="text" class="modal-input" placeholder="Special offers">
+    
+                    <label class="modal-label" for="ticket-email">
+                        <i class="ti-user"></i>
+                        Send to
+                    </label>
+                    <input id="ticket-email" type="email" class="modal-input" placeholder="Enter email">
+    
+                    <button id="buy-ticket">
+                        Pay <i class="ti-check"></i>
+                    </button>
+                </div>
+    
+                <footer class="modal-footer">
+                    <p class="modal-help">Need <a href="#">help?</a></p>
+                </footer>
+            </div>
+        </div>
+        <!-- Modal buy tickets end -->
+        <script src="./assets/javascript/script.js"> </script>
+</body>
+</html>
